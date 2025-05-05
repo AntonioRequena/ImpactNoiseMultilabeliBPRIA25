@@ -1,3 +1,5 @@
+
+
 # Multi-label Noise Induction Experiments
 
 This repository contains the source code required to reproduce the experiments described in the related article.
@@ -40,3 +42,29 @@ To execute all the experiments automatically, run the following script:
 ---
 
 Feel free to open an issue if you encounter any problems or have questions about the code or setup.
+
+
+
+### Citations
+
+If you find this code useful in your research, we kindly ask you to cite the following paper:
+
+```bibtex
+@inproceedings{Requena2025,
+  author    = {Antonio Requena and Antonio Javier Gallego and Jose J. Valero-Mas},
+  title     = {Impact of label-level noise on multi-label learning: a case study on the k-Nearest Neighbor classifier},
+  booktitle = {Proceedings of the 12th Iberian Conference on Pattern Recognition and Image Analysis (IbPRIA 2025)},
+  year      = {2025},
+  month     = {June 30--July 3},
+  address   = {Coimbra, Portugal}
+}
+```
+
+
+### Acknowledgments
+
+This work was partially funded by the Generalitat Valenciana through project CIGE/2023/216 and 
+the Spanish Ministerio de Ciencia, Innovación y Universidades through project PID2023-148259NB-I00 (LEMUR).
+
+
+
