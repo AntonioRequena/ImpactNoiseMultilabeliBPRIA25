@@ -22,6 +22,6 @@ The file that contains the noise induction algorithms is: noise.py
 4.Run the experiments
 To execute the experiments, run the following shell script:
 
-#./lote_auto_ruido.sh
+lote_auto_ruido.sh
 
 Let me know if you want to include environment setup instructions or example outputs.
