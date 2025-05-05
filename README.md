@@ -1,24 +1,33 @@
+# Code for: *Impact of Label-Level Noise on Multi-Label Learning* (IbPRIA 2025)
 
+This repository contains the source code and scripts needed to reproduce the experiments described in the paper:
 
-# Multi-label Noise Induction Experiments
+**"Impact of label-level noise on multi-label learning: a case study on the k-Nearest Neighbor classifier"**  
+*Antonio Requena, Antonio Javier Gallego, Jose J. Valero-Mas*  
+Proceedings of the 12th Iberian Conference on Pattern Recognition and Image Analysis (IbPRIA 2025), Coimbra, Portugal.
 
-This repository contains the source code required to reproduce the experiments described in the related article.
+## 📋 Overview
 
-## Getting Started
+This project explores the effect of **label-level noise** in **multi-label classification**, using synthetic noise induction 
+and k-Nearest Neighbor classifiers. We introduce controlled noise into multi-label datasets and evaluate the resulting performance variations.
 
-To set up the environment and run the experiments, follow the steps below:
+## 🚀 Getting Started
+
+Follow these steps to set up the environment and reproduce the experiments.
 
 ### 1. Create a virtual environment
 
 It's recommended to use a virtual environment to avoid dependency conflicts:
+
 ```bash
 python -m venv venv
 source venv/bin/activate   # or venv\Scripts\activate on Windows
 ```
 
-### 2. Install required dependencies
+### 2. Install dependencies
 
-All dependencies are listed in the `requirements.txt` file:
+Install required packages listed in `requirements.txt`:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -28,10 +37,14 @@ pip install -r requirements.txt
 The main source files are located in the `py_projects` directory:
 
 - `noise.py`: Contains the noise induction algorithms used in the experiments.
+- `lote_auto_ruido.sh`: Bash script to run all experiments.
+- `datasets/`: Folder expected to contain the multi-label datasets (e.g., emotions, scene, etc.)
+
 
 ### 4. Run the experiments
 
-To execute all the experiments automatically, run the following script:
+To execute all the experiments, run the following script:
+
 ```bash
 ./lote_auto_ruido.sh
 ```
@@ -39,13 +52,11 @@ To execute all the experiments automatically, run the following script:
 > 💡 Make sure the script has execution permissions. You can set them with:  
 > `chmod +x lote_auto_ruido.sh`
 
----
-
-Feel free to open an issue if you encounter any problems or have questions about the code or setup.
 
 
 
-### Citations
+
+## Citation
 
 If you find this code useful in your research, we kindly ask you to cite the following paper:
 
@@ -63,8 +74,13 @@ If you find this code useful in your research, we kindly ask you to cite the fol
 
 ### Acknowledgments
 
-This work was partially funded by the Generalitat Valenciana through project CIGE/2023/216 and 
-the Spanish Ministerio de Ciencia, Innovación y Universidades through project PID2023-148259NB-I00 (LEMUR).
+This work was partially funded by: 
+- Generalitat Valenciana, project CIGE/2023/216.
+- Spanish Ministerio de Ciencia, Innovación y Universidades, project PID2023-148259NB-I00 (LEMUR).
 
 
+
+---
+
+Feel free to open an issue if you encounter any problems or have questions about the code or setup.
 
