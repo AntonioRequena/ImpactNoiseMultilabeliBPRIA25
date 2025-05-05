@@ -1,27 +1,42 @@
-# ImpactNoiseMultilabeliBPRIA25
-Impact of label-level noise on multi-label learning: a case study on de k-Nearest Neighbor classifier
+# Multi-label Noise Induction Experiments
 
-Here’s a properly formatted README.md section using Markdown syntax for GitHub:
+This repository contains the source code required to reproduce the experiments described in the related article.
 
-## Running the Experiments
+## Getting Started
 
-In this folder, you will find the source files required to run the experiments that support the article you have read. Follow these recommended steps:
+To set up the environment and run the experiments, follow the steps below:
 
-1. **Create a virtual environment**
+### 1. Create a virtual environment
 
-2. **Install all necessary packages**  
-   The required packages are listed in the `requirements.txt` file.  
-   Use the following command:
-   
-   pip install -r requirements.txt
+It's recommended to use a virtual environment to avoid dependency conflicts:
+```bash
+python -m venv venv
+source venv/bin/activate   # or venv\Scripts\activate on Windows
+```
 
-3. Navigate to the source code
-All source code files are located in the py_projects directory.
-The file that contains the noise induction algorithms is: noise.py
+### 2. Install required dependencies
 
-4.Run the experiments
-To execute the experiments, run the following shell script:
+All dependencies are listed in the `requirements.txt` file:
+```bash
+pip install -r requirements.txt
+```
 
-lote_auto_ruido.sh
+### 3. Explore the project structure
 
-Let me know if you want to include environment setup instructions or example outputs.
+The main source files are located in the `py_projects` directory:
+
+- `noise.py`: Contains the noise induction algorithms used in the experiments.
+
+### 4. Run the experiments
+
+To execute all the experiments automatically, run the following script:
+```bash
+./lote_auto_ruido.sh
+```
+
+> 💡 Make sure the script has execution permissions. You can set them with:  
+> `chmod +x lote_auto_ruido.sh`
+
+---
+
+Feel free to open an issue if you encounter any problems or have questions about the code or setup.
