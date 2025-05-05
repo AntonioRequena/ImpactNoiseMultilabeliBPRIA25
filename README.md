@@ -15,16 +15,13 @@ In this folder, you will find the source files required to run the experiments t
    
    pip install -r requirements.txt
 
-	3.	Navigate to the source code
+3. Navigate to the source code
 All source code files are located in the py_projects directory.
-The file that contains the noise induction algorithms is:
+The file that contains the noise induction algorithms is: noise.py
 
-noise.py
-
-
-	4.	Run the experiments
+4.Run the experiments
 To execute the experiments, run the following shell script:
 
-./lote_auto_ruido.sh
+#./lote_auto_ruido.sh
 
 Let me know if you want to include environment setup instructions or example outputs.
