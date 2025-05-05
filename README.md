@@ -1,15 +1,21 @@
-# Code for: *Impact of Label-Level Noise on Multi-Label Learning* (IbPRIA 2025)
+# Code for: *Impact of Label-Level Noise on Multi-Label Learning*
 
 This repository contains the source code and scripts needed to reproduce the experiments described in the paper:
 
-**"Impact of label-level noise on multi-label learning: a case study on the k-Nearest Neighbor classifier"**  
-*Antonio Requena, Antonio Javier Gallego, Jose J. Valero-Mas*  
-Proceedings of the 12th Iberian Conference on Pattern Recognition and Image Analysis (IbPRIA 2025), Coimbra, Portugal.
 
-## 📋 Overview
+> **"Impact of label-level noise on multi-label learning: a case study on the k-Nearest Neighbor classifier"**  
+> *Antonio Requena, Antonio Javier Gallego, Jose J. Valero-Mas*  
+> Proceedings of the 12th Iberian Conference on Pattern Recognition and Image Analysis (IbPRIA 2025), Coimbra, Portugal.
 
-This project explores the effect of **label-level noise** in **multi-label classification**, using synthetic noise induction 
+
+<br/>
+
+
+This paper explores the effect of **label-level noise** in **multi-label classification**, using synthetic noise induction 
 and k-Nearest Neighbor classifiers. We introduce controlled noise into multi-label datasets and evaluate the resulting performance variations.
+
+<br/>
+
 
 ## 🚀 Getting Started
 
@@ -52,7 +58,7 @@ To execute all the experiments, run the following script:
 > 💡 Make sure the script has execution permissions. You can set them with:  
 > `chmod +x lote_auto_ruido.sh`
 
-
+<br/>
 
 
 
@@ -70,15 +76,15 @@ If you find this code useful in your research, we kindly ask you to cite the fol
   address   = {Coimbra, Portugal}
 }
 ```
+<br/>
 
-
-### Acknowledgments
+## Acknowledgments
 
 This work was partially funded by: 
 - Generalitat Valenciana, project CIGE/2023/216.
 - Spanish Ministerio de Ciencia, Innovación y Universidades, project PID2023-148259NB-I00 (LEMUR).
 
-
+<br/>
 
 ---
 
